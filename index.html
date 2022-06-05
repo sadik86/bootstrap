@@ -4,9 +4,222 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <style>
+        h1{
+            margin-top: 100px;
+        }
+
+    </style>
 </head>
-<body> <h1>Hello</h1>
-    
+<body>
+    <h1>Hello Welcome To Bootstrap</h1>
+    <button class="btn btn-primary">My Button</button>
+    <button class="btn btn-info">My Button</button>
+    <button class="btn btn-light">My Button</button>
+    <button class="btn btn-dark">My Button</button>
+    <button class="btn btn-success">My Button</button>
+
+
+    <p class="text-primary">This is paragraph</p>
+
+
+    <div class="p-3 mb-2 bg-info text-dark">Bootstrap is very nice</div>
+    <div class="p-3 mb-2 bg-primary text-black">
+        <h1>Nice to meet you</h1>
+
+    </div>
+    <div>
+        <h3>Images</h3>
+        <img class="img-fluid"
+         src="colin-meg-gmAqud8x0CA-unsplash.jpg" alt="">
+        <img class="img-fluid w-25 rounded-circle" src="colin-meg-gmAqud8x0CA-unsplash.jpg" alt="">
+        <img class="img-fluid w-25" src=" " alt="">
+      
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="colin-meg-gmAqud8x0CA-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">Sadik Love</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa illo possimus numquam dolore deserunt nobis voluptate quisquam magni quidem ut! Amet aperiam numquam culpa consectetur ullam ad architecto deserunt neque!.</p>
+          <a href="https://www.facebook.com/sadikmuktadir.mithun" class="btn btn-primary">Contract</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="colin-meg-gmAqud8x0CA-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="colin-meg-gmAqud8x0CA-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="colin-meg-gmAqud8x0CA-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navv">
+          <a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
+          <a href="http://" target="_blank" rel="noopener noreferrer">Inside</a>
+          <a href="http://" target="_blank" rel="noopener noreferrer">Images</a>
+          <a href="http://" target="_blank" rel="noopener noreferrer">About</a>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-dark bg-dark">
+       h <home>
+      </nav>
+      
+      <nav class="navbar navbar-dark bg-primary">
+       q <phone>
+      </nav>
+      
+      <nav class="navbar" style="background-color: #e3f2fd;">
+        a<contract>
+      </nav>
+      
+      <div class="container">
+        <h1>Grid</h1>
+      <div class="row">
+          <div class="col-4">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quos quisquam in at dignissimos minima quas. Alias in temporibus, tempora molestiae id asperiores, quasi, quia hic exercitationem dolor quo nemo maxime adipisci. Quia pariatur dignissimos sint consequuntur magnam ad quaerat harum beatae est doloribus eaque temporibus consequatur incidunt minima molestias, amet nostrum! Rerum cupiditate, expedita commodi assumenda aspernatur debitis, voluptatum officia reiciendis omnis eius at minima quos vero modi repudiandae deleniti, voluptas facilis exercitationem. Porro saepe quod hic vitae, eaque, sapiente labore excepturi alias nulla cumque repellat quaerat aspernatur animi modi quibusdam accusantium minima aliquid pariatur ipsum repudiandae voluptatibus consectetur. Dolores eaque nulla, tenetur reiciendis sed accusamus consectetur blanditiis, reprehenderit quisquam, ab impedit aliquid repudiandae assumenda quidem culpa. excepturi quo.</p>
+        </div>
+        
+          <div class="col-4">
+              
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quos quisquam in at dignissimos minima quas. Alias in temporibus, tempora molestiae id asperiores, quasi, quia hic exercitationem dolor quo nemo maxime adipisci. Quia pariatur dignissimos sint consequuntur magnam ad quaerat harum beatae est doloribus eaque temporibus consequatur incidunt minima molestias, amet nostrum! Rerum cupiditate, expedita commodi assumenda aspernatur debitis, voluptatum officia reiciendis omnis eius at minima quos vero modi repudiandae deleniti, voluptas facilis exercitationem. Porro saepe quod hic vitae, eaque, sapiente labore excepturi alias nulla cumque repellat quaerat aspernatur animi modi quibusdam accusantium minima aliquid pariatur ipsum repudiandae voluptatibus consectetur. Dolores eaque nulla, tenetur reiciendis sed accusamus consectetur blanditiis, reprehenderit quisquam, ab impedit aliquid repudiandae assumenda quidem culpa. excepturi quo.</p>
+        </div>
+        <div class="col-4">
+        
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quos quisquam in at dignissimos minima quas. Alias in temporibus, tempora molestiae id asperiores, quasi, quia hic exercitationem dolor quo nemo maxime adipisci. Quia pariatur dignissimos sint consequuntur magnam ad quaerat harum beatae est doloribus eaque temporibus consequatur incidunt minima molestias, amet nostrum! Rerum cupiditate, expedita commodi assumenda aspernatur debitis, voluptatum officia reiciendis omnis eius at minima quos vero modi repudiandae deleniti, voluptas facilis exercitationem. Porro saepe quod hic vitae, eaque, sapiente labore excepturi alias nulla cumque repellat quaerat aspernatur animi modi quibusdam accusantium minima aliquid pariatur ipsum repudiandae voluptatibus consectetur. Dolores eaque nulla, tenetur reiciendis sed accusamus consectetur blanditiis, reprehenderit quisquam, ab impedit aliquid repudiandae assumenda quidem culpa. excepturi quo.</p>
+        </div>
+          </div>
+     
+      </div>
+      <h1>Calousel</h1>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="colin-meg-gmAqud8x0CA-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="peter_dream.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="peter.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h1>Flex</h1>
+      <div class="d-flex flex-column mb-3">
+        <div class="p-2">Flex item 1</div>
+        <div class="p-2">Flex item 2</div>
+        <div class="p-2">Flex item 3</div>
+      </div>
+      <div class="d-flex flex-column-reverse">
+        <div class="p-2">Flex item 1</div>
+        <div class="p-2">Flex item 2</div>
+        <div class="p-2">Flex item 3</div>
+      </div>
+      <div class="container">
+          <h1>
+              Flex Layout
+          </h1>
+          <div class="d-flex flex-row flex-sm-row flex-md-column justify-content-center">
+              <div class="shabana"> shabana</div>
+              <div class="sabnur">sabnur</div>
+              <div class="mousumi">mousumi</div>
+
+              </div>
+
+          </div>
+
+      </div>
+
 </body>
 </html>
